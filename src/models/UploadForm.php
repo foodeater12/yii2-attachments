@@ -1,6 +1,6 @@
 <?php
 
-namespace nemmo\attachments\models;
+namespace foodeater12\attachments\models;
 
 use nemmo\attachments\ModuleTrait;
 use yii\base\Model;

@@ -1,6 +1,6 @@
 <?php
 
-namespace nemmo\attachments\components;
+namespace foodeater12\attachments\components;
 
 use kartik\file\FileInput;
 use nemmo\attachments\models\UploadForm;

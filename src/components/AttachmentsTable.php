@@ -1,6 +1,6 @@
 <?php
 
-namespace nemmo\attachments\components;
+namespace foodeater12\attachments\components;
 
 use nemmo\attachments\behaviors\FileBehavior;
 use nemmo\attachments\ModuleTrait;

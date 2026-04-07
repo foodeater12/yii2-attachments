@@ -6,7 +6,7 @@
  * Time: 12:24
  */
 
-namespace nemmo\attachments\behaviors;
+namespace foodeater12\attachments\behaviors;
 
 use nemmo\attachments\events\FileEvent;
 use nemmo\attachments\models\File;

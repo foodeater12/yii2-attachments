@@ -1,6 +1,6 @@
 <?php
 
-namespace nemmo\attachments\migrations;
+namespace foodeater12\attachments\migrations;
 
 use yii\db\Migration;
 use yii\db\Schema;

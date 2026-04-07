@@ -1,6 +1,6 @@
 <?php
 
-namespace nemmo\attachments\events;
+namespace foodeater12\attachments\events;
 
 use yii\base\Event;
 

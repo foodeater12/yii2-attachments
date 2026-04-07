@@ -1,6 +1,6 @@
 <?php
 
-namespace nemmo\attachments;
+namespace foodeater12\attachments;
 
 use nemmo\attachments\models\File;
 use yii\base\Exception;
