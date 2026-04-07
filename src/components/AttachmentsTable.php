@@ -6,7 +6,7 @@ use nemmo\attachments\behaviors\FileBehavior;
 use nemmo\attachments\ModuleTrait;
 use Yii;
 use yii\base\InvalidConfigException;
-use yii\bootstrap\Widget;
+use yii\bootstrap5\Widget;
 use yii\data\ArrayDataProvider;
 use yii\db\ActiveRecord;
 use yii\grid\GridView;
@@ -73,7 +73,7 @@ JS;
 
         return GridView::widget([
             'dataProvider' => new ArrayDataProvider(['allModels' => $this->model->getFiles()]),
-            'layout' => '{items}',
+            'layout' => '{items}{pager}',
             'tableOptions' => $this->tableOptions,
             'columns' => [
                 [

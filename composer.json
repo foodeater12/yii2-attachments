@@ -1,6 +1,6 @@
 {
-  "name": "nemmo/yii2-attachments",
-  "description": "Extension for file uploading and attaching to the models",
+  "name": "foodeater12/yii2-attachments",
+  "description": "Fork of nemmo/yii2-attachments to upgrade to boostrap5",
   "type": "yii2-extension",
   "keywords": [
     "yii2",
@@ -10,13 +10,11 @@
     "upload"
   ],
   "license": "BSD-4-Clause",
-  "homepage": "https://github.com/Nemmo/yii2-attachments",
+  "homepage": "https://github.com/foodeater12/yii2-attachments",
   "authors": [
     {
-      "name": "Alimzhan Abuov aka Nemmo",
-      "email": "alimzhan.abu@yandex.kz",
-      "homepage": "http://alimzhan.kz",
-      "role": "Developer"
+      "name": "Austin Palanca",
+      "email": "austinp18@hotmail.com"
     }
   ],
   "require": {
@@ -31,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "nemmo\\attachments\\": "src"
+      "foodeater12\\attachments\\": "src"
     }
   },
   "extra": {
