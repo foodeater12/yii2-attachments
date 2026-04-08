@@ -8,9 +8,9 @@
 
 namespace foodeater12\attachments\behaviors;
 
-use nemmo\attachments\events\FileEvent;
-use nemmo\attachments\models\File;
-use nemmo\attachments\ModuleTrait;
+use foodeater12\attachments\events\FileEvent;
+use foodeater12\attachments\models\File;
+use foodeater12\attachments\ModuleTrait;
 use yii\base\Behavior;
 use yii\db\ActiveRecord;
 use yii\helpers\FileHelper;

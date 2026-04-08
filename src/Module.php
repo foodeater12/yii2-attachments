@@ -2,7 +2,7 @@
 
 namespace foodeater12\attachments;
 
-use nemmo\attachments\models\File;
+use foodeater12\attachments\models\File;
 use yii\base\Exception;
 use yii\helpers\ArrayHelper;
 use yii\helpers\FileHelper;

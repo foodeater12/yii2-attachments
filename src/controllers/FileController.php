@@ -2,9 +2,9 @@
 
 namespace foodeater12\attachments\controllers;
 
-use nemmo\attachments\models\File;
-use nemmo\attachments\models\UploadForm;
-use nemmo\attachments\ModuleTrait;
+use foodeater12\attachments\models\File;
+use foodeater12\attachments\models\UploadForm;
+use foodeater12\attachments\ModuleTrait;
 use Yii;
 use yii\helpers\FileHelper;
 use yii\web\Controller;

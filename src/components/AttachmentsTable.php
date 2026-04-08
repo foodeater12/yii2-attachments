@@ -2,8 +2,8 @@
 
 namespace foodeater12\attachments\components;
 
-use nemmo\attachments\behaviors\FileBehavior;
-use nemmo\attachments\ModuleTrait;
+use foodeater12\attachments\behaviors\FileBehavior;
+use foodeater12\attachments\ModuleTrait;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\bootstrap5\Widget;

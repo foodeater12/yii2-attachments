@@ -3,8 +3,8 @@
 namespace foodeater12\attachments\components;
 
 use himiklab\colorbox\Colorbox;
-use nemmo\attachments\behaviors\FileBehavior;
-use nemmo\attachments\ModuleTrait;
+use foodeater12\attachments\behaviors\FileBehavior;
+use foodeater12\attachments\ModuleTrait;
 use Yii;
 use yii\bootstrap\Widget;
 use yii\data\ArrayDataProvider;

@@ -2,7 +2,7 @@
 
 namespace foodeater12\attachments\models;
 
-use nemmo\attachments\ModuleTrait;
+use foodeater12\attachments\ModuleTrait;
 use Yii;
 use yii\db\ActiveRecord;
 use yii\helpers\Url;

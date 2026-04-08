@@ -3,8 +3,8 @@
 namespace foodeater12\attachments\components;
 
 use kartik\file\FileInput;
-use nemmo\attachments\models\UploadForm;
-use nemmo\attachments\ModuleTrait;
+use foodeater12\attachments\models\UploadForm;
+use foodeater12\attachments\ModuleTrait;
 use yii\base\InvalidConfigException;
 use yii\bootstrap5\Widget;
 use yii\helpers\FileHelper;
