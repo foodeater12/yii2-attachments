@@ -7,7 +7,7 @@ use yii\db\Schema;
 
 class m150127_040544_add_attachments extends Migration
 {
-    use \nemmo\attachments\ModuleTrait;
+    use \foodeater12\attachments\ModuleTrait;
 
     public function up()
     {

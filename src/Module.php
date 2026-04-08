@@ -10,7 +10,7 @@ use yii\i18n\PhpMessageSource;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'nemmo\attachments\controllers';
+    public $controllerNamespace = 'foodeater12\attachments\controllers';
 
     public $storePath = '@app/uploads/store';
 
@@ -35,19 +35,19 @@ class Module extends \yii\base\Module
 
     public function registerTranslations()
     {
-        \Yii::$app->i18n->translations['nemmo/*'] = [
+        \Yii::$app->i18n->translations['foodeater12/*'] = [
             'class' => PhpMessageSource::className(),
             'sourceLanguage' => 'en',
-            'basePath' => '@vendor/nemmo/yii2-attachments/src/messages',
+            'basePath' => '@vendor/foodeater12/yii2-attachments/src/messages',
             'fileMap' => [
-                'nemmo/attachments' => 'attachments.php'
+                'foodeater12/attachments' => 'attachments.php'
             ],
         ];
     }
 
     public static function t($category, $message, $params = [], $language = null)
     {
-        return \Yii::t('nemmo/' . $category, $message, $params, $language);
+        return \Yii::t('foodeater12/' . $category, $message, $params, $language);
     }
 
     public function getStorePath()

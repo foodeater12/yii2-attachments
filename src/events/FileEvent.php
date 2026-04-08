@@ -7,12 +7,12 @@ use yii\base\Event;
 class FileEvent extends Event
 {
     /**
-     * @var nemmo\attachments\models\File[]
+     * @var foodeater12\attachments\models\File[]
      */
     private $_files;
 
     /**
-     * @return nemmo\attachments\models\File[]
+     * @return foodeater12\attachments\models\File[]
      */
     public function getFiles()
     {
@@ -20,7 +20,7 @@ class FileEvent extends Event
     }
 
     /**
-     * @param nemmo\attachments\models\File[] $files
+     * @param foodeater12\attachments\models\File[] $files
      */
     public function setFiles($files)
     {
